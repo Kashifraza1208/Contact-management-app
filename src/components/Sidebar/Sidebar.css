@@ -1,0 +1,49 @@
+/* Sidebar.css */
+
+.sidebar {
+  flex: 1;
+  background-color: hsl(0, 0%, 84%);
+  color: white;
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+  padding-top: -10px;
+}
+
+.lists {
+  list-style: none;
+  padding: 0;
+}
+
+.lists li {
+  margin-bottom: 106px;
+}
+
+.lists a {
+  text-decoration: none;
+  color: black;
+  font-size: 28px;
+}
+
+.lists a:hover {
+  color: #ff9900;
+}
+
+/* Media query for mobile */
+@media (max-width: 600px) {
+  .sidebar {
+    width: 100%; /* Adjust the width to occupy the entire screen on mobile */
+    padding-top: 20px; /* Add padding for better spacing */
+  }
+
+  .lists li {
+    margin-bottom: 20px; /* Reduce the margin for better spacing on mobile */
+  }
+}

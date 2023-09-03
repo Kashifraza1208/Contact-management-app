@@ -1,0 +1,90 @@
+/* charts-map.css */
+
+/* Style for the main container */
+.chart {
+  margin-top: 20px;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container for the chart */
+.chart-container {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style for chart and map */
+.chart-container canvas {
+  width: 100% !important;
+  height: auto !important;
+}
+
+/* Navbar styling */
+.navbar1 {
+  background-color: red;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.page-heading {
+  font-size: 24px;
+  font-weight: bold;
+ 
+  margin-left: 600px;
+}
+
+/* Container for the map */
+.map-container {
+  height: 400px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Define custom styles for the popup */
+.custom-popup {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 5px;
+  padding: 10px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  font-size: 28px;
+  font-weight: 600;
+  transform: translate(-50%, -50%);
+}
+
+/* Style the heading in the popup */
+.custom-popup h3 {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Style the paragraphs in the popup */
+.custom-popup p {
+  font-size: 14px;
+  margin: 5px 0;
+}

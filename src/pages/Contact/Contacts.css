@@ -1,0 +1,121 @@
+/* ContactButtons.css */
+
+.contact-buttons {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #007bff;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+}
+
+.contact-heading {
+  text-align: center;
+  margin: 0;
+}
+
+.contactContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 300px;
+  top: 70px;
+  margin-left: 210px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.contact-table {
+  margin-top: 20px;
+  width: 75vw;
+  margin-left: 300px;
+  overflow: scroll;
+}
+.paragraph {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.table-container {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.list-heading {
+  margin-top: -30px;
+  margin-left: 750px;
+}
+.contact-table th,
+.contact-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  width: 10vw;
+}
+
+.contact-table th {
+  background-color: #f2f2f2;
+}
+
+.buttonedit {
+  margin-bottom: 10px;
+}
+
+.buttondelete {
+  padding: 10px 40px;
+}
+
+button {
+  padding: 10px 50px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.button {
+  margin-left: -200px;
+}
+
+button:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Media query for screens with a width less than or equal to 600px */
+@media (max-width: 600px) {
+  .buttons-container {
+    flex-direction: column;
+  }
+
+  button {
+    margin-top: 5px;
+  }
+
+  .contact-table {
+    margin-left: 0; /* Remove left margin */
+    width: 100%; /* Make the table full width */
+    overflow-x: auto; /* Add horizontal scrolling for small screens */
+  }
+}
