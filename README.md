@@ -1,6 +1,50 @@
-# Getting Started with Create React App
+#Here is project demo - https://contact-management-app-pearl.vercel.app/chartsmap
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project: Contact Management App with Charts and Maps
+
+Description: Developed a feature-rich contact management application with integrated charts and maps using modern web technologies.
+
+#Technologies Used:
+
+Front-end: ReactJS, TypeScript, TailwindCSS, React Router v6, React Query aka TanstackQuery, Redux
+Data Visualization: Chart.js, React-Chartjs-2, React-Leaflet
+APIs: Utilized external APIs to fetch COVID-19 data for maps and charts.
+Deployment: Hosted the app on Vercel for live access.
+Key Features:
+
+#1. Contact Management:
+
+Implemented a user-friendly form for adding new contacts.
+Displayed a dynamic list of all added contacts.
+Provided edit and delete functionality for contacts.
+Integrated Redux for efficient state management.
+
+#2. Charts Dashboard:
+Designed a comprehensive dashboard with a line graph displaying COVID-19 cases fluctuations.
+Utilized Chart.js and React-Chartjs-2 for data visualization.
+Integrated React Query for efficient data fetching and management.
+
+#3. Maps Dashboard:
+
+Created a dynamic map using React-Leaflet.
+Plotted country-specific markers with pop-up details, including country name, total active cases, recovered cases, and deaths.
+Utilized external COVID-19 APIs to fetch real-time data for map integration.
+Project Link: GitHub Repository
+
+Live Demo: Link to the live application
+
+#Additional Notes:
+
+Deployed the application on Vercel for easy access.
+Incorporated TailwindCSS for responsive and visually appealing UI.
+Leveraged TypeScript for enhanced code reliability and maintainability.
+Practiced React Router v6 for smooth navigation within the app.
+Outcome: Successfully built a feature-rich contact management app with interactive charts and maps, showcasing proficiency in modern web development technologies, data visualization, and efficient state management
+
+
+
+
+
 
 ## Available Scripts
 
